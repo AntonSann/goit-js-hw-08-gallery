@@ -49,7 +49,6 @@ const closeLightBox = (event) => {
     return;
 }
 const controlKeys = (event) => {
-    console.log (event.key);
     if (event.key === 'Escape')  {
         lightBox.classList.remove('is-open');
         lightBoxImg.setAttribute('src', '');
